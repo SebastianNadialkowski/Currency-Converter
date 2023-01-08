@@ -1,0 +1,47 @@
+<html lang="PL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przelicznik Walut</title>
+    <meta property="og:image" content="images/share.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Ms+Madi&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <header class="header">
+        Przelicznik Walut
+      </header>
+      <form class="js-form">
+        <label class="form__label">
+          KWOTA W PLN:
+          <input class="form__field js-value" type="number" min="0.01" step="0.01" required placeholder="POLE WYMAGANE">
+        </label>
+        <p></p>
+        <label class="form__label">
+          WYBIERZ WALUTĘ:
+        </label>
+        <select class="form__field js-currency">
+          <option value="EUR">EURO (EUR)</option>
+          <option value="USD">DOLAR (USD)</option>
+          <option value="GBP">FUNT (GBP)</option>
+          <option value="CHF">FRANK (CHF)</option>
+          <option value="JPY">JEN (JPY)</option>
+        </select>
+        </label>
+        <p><button class="form__button">
+            PRZELICZ
+          </button>
+        <p class="js-result">...............................................
+        <p class="form_info">kurs walut z dnia 15.12.2022r
+      </form>
+      <footer class="footer">Created by SirSkuty wszelkie prawa zastzrerzone</footer>
+</body>
