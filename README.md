@@ -1,6 +1,5 @@
 # Projekt pzelicznik walut
 
-Cześć !
 
 **Przelicznik Walut** to projekt jako uczeń *Front End Developer* by YouCode
 
@@ -8,5 +7,3 @@ Cześć !
 - Jest to mój pierwszy projekt, więc jest dosyć prosty, liczy sie funkcjonalność ;)
 
 Zapraszam do obejrzenia  https://sebastiannadialkowski.github.io/Pzelicznik-Walut/
-
-![image](https://user-images.githubusercontent.com/121190741/211198034-91cf72b0-6fb0-45e0-aef6-56178702f6e4.png)
