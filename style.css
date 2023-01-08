@@ -17,6 +17,9 @@ html {
     border-radius: 5px;
     text-align: center;
     font-family: 'Unbounded', cursive;
+    background-image: url("img/wallpaper.jpg");
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .header {
@@ -56,8 +59,7 @@ html {
 }
 
 .form_info {
-    font-size: 8px;
-    color: rgb(128, 128, 128);
+    font-size: 10px;
 }
 
 .footer {
