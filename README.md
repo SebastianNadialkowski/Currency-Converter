@@ -16,6 +16,8 @@
 
 I recently did a little refactoring of JavaScript code, by adding functions 
 
+*(for the moment it is very difficult, done with the help of lessons on YouCode, I think in the future it will be easier - practice makes perfect ;))*
+
 was:
 ```javascript
 let valueElement = document.querySelector(".js-value");
