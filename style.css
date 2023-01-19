@@ -39,14 +39,20 @@ html {
     display: inline-block;
     padding: 10px;
     text-shadow: 2px 2px 8px #ccc;
+    
 }
 
 .form__field {
     text-transform: uppercase;
     border-radius: 5px;
-    border: solid 1px;
+    border:none;
     border-color: rgb(173, 169, 169);
     box-shadow: 2px 2px 8px #ccc;
+    transition-duration:500ms
+}
+
+.form__field:hover {
+    transform: scale(103%);
 }
 
 .form__button {
@@ -59,6 +65,12 @@ html {
     border-radius: 5px;
     background-color: rgb(214, 233, 214);
     box-shadow: 2px 2px 8px #ccc;
+    transition-duration:500ms;
+    
+}
+
+.form__button:hover {
+    transform: scale(105%);
 }
 
 .form_info {
